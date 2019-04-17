@@ -1,0 +1,23 @@
+Collection            go_emailer_com      
+Package Name          invoice             
+Package String        go.emailer.com/pb/invoice
+
+Root Object invoice
+Prefix - inv
+id                             :                         STRING
+user_id                        :                         STRING
+membership(membership)         :                           JSON
+address(address)               :                           JSON
+user_profile(user_profile)     :                           JSON
+invoice_start                  :                      TIMESTAMP
+invoice_end                    :                      TIMESTAMP
+generated_on                   :                      TIMESTAMP
+paid                           :                        BOOLEAN
+failed                         :                        BOOLEAN
+failed_reason                  :                         STRING
+Primary Key(s)                 :                            id
+
+Directed Acyclic Graph of Intermediate Representation
+
+go_emailer_com
+	└ invoice

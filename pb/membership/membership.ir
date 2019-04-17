@@ -1,0 +1,18 @@
+Collection            go_emailer_com      
+Package Name          membership          
+Package String        go.emailer.com/pb/membership
+
+Root Object membership
+Prefix - mem
+id                             :                         STRING
+title                          :                         STRING
+description                    :                         STRING
+duration_in_month              :                          INT32
+cost                           :                          INT32
+quantity                       :                          INT64
+Primary Key(s)                 :                            id
+
+Directed Acyclic Graph of Intermediate Representation
+
+go_emailer_com
+	└ membership

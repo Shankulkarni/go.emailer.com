@@ -1,0 +1,15 @@
+Collection            go_emailer_com      
+Package Name          credit              
+Package String        go.emailer.com/pb/credit
+
+Root Object credit
+Prefix - ced
+id                             :                         STRING
+credits                        :                          INT64
+expire_on                      :                      TIMESTAMP
+Primary Key(s)                 :                            id
+
+Directed Acyclic Graph of Intermediate Representation
+
+go_emailer_com
+	└ credit

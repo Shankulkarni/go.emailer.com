@@ -1,0 +1,6 @@
+CREATE SCHEMA IF NOT EXISTS go_emailer_com
+
+CREATE TABLE IF NOT EXISTS go_emailer_com.membership_parent (id text DEFAULT ''::text  , parent text DEFAULT ''::text  , is_deleted boolean DEFAULT false  , deleted_by text DEFAULT ''::text  , deleted_on timestamp without time zone DEFAULT '1970-01-01 00:00:00'::timestamp without time zone  , updated_by text DEFAULT ''::text  , updated_on timestamp without time zone DEFAULT '1970-01-01 00:00:00'::timestamp without time zone  , created_by text DEFAULT ''::text  , created_on timestamp without time zone DEFAULT '1970-01-01 00:00:00'::timestamp without time zone  )
+
+CREATE TABLE IF NOT EXISTS go_emailer_com.membership (id text DEFAULT ''::text  , title text DEFAULT ''::text  , description text DEFAULT ''::text  , duration_in_month integer DEFAULT 0  , cost integer DEFAULT 0  , quantity integer DEFAULT 0  , parent text DEFAULT ''::text  , is_deleted boolean DEFAULT false  , deleted_by text DEFAULT ''::text  , deleted_on timestamp without time zone DEFAULT '1970-01-01 00:00:00'::timestamp without time zone  , updated_by text DEFAULT ''::text  , updated_on timestamp without time zone DEFAULT '1970-01-01 00:00:00'::timestamp without time zone  , created_by text DEFAULT ''::text  , created_on timestamp without time zone DEFAULT '1970-01-01 00:00:00'::timestamp without time zone  , PRIMARY KEY(id) )
+

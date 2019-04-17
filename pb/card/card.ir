@@ -1,0 +1,36 @@
+Collection            go_emailer_com      
+Package Name          card                
+Package String        go.emailer.com/pb/card
+
+Root Object user_card_information
+Prefix - crd
+id                             :                         STRING
+gateway_id                     :                          INT32
+customer_id                    :                         STRING
+Primary Key(s)                 :                   customer_id
+
+Object card
+Prefix - cdu
+id                             :                         STRING
+card_id                        :                         STRING
+card_type                      :                         STRING
+last_four                      :                         STRING
+name                           :                         STRING
+email                          :                         STRING
+expire_on                      :                         STRING
+address(address)               :                           JSON
+is_default                     :                        BOOLEAN
+metadata                       :             MAP<STRING,STRING>
+Primary Key(s)                 :                            id
+Is repeated                    :                           true
+Nullable                       :                          false
+Multiple parents               :                          false
+Name in parent                 :                          cards
+To Flat                        :                          false
+Path to file                   :         go.emailer.com/pb/card
+
+Directed Acyclic Graph of Intermediate Representation
+
+go_emailer_com
+	└ user_card_information
+		└ card

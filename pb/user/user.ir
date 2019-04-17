@@ -1,0 +1,18 @@
+Collection            go_emailer_com      
+Package Name          user                
+Package String        go.emailer.com/pb/user
+
+Root Object user_profile
+Prefix - usr
+id                             :                         STRING
+email                          :                         STRING
+name                           :                         STRING
+last_name                      :                         STRING
+contact_number                 :                         STRING
+address(address)               :                           JSON
+Primary Key(s)                 :                            id
+
+Directed Acyclic Graph of Intermediate Representation
+
+go_emailer_com
+	└ user_profile

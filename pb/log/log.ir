@@ -1,0 +1,13 @@
+Collection            go_emailer_com      
+Package Name          log                 
+Package String        go.emailer.com/pb/log
+
+Root Object log
+Prefix - inv
+id                             :                         STRING
+Primary Key(s)                 :                            id
+
+Directed Acyclic Graph of Intermediate Representation
+
+go_emailer_com
+	└ log

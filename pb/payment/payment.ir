@@ -1,0 +1,24 @@
+Collection            go_emailer_com      
+Package Name          payment             
+Package String        go.emailer.com/pb/payment
+
+Root Object subscription
+Prefix - sub
+id                             :                         STRING
+user_id                        :                         STRING
+gateway_id                     :                         STRING
+gateway_customer_id            :                         STRING
+gateway_subscription_id        :                         STRING
+membership_id                  :                         STRING
+is_recurring                   :                        BOOLEAN
+card_id                        :                         STRING
+valid_till                     :                      TIMESTAMP
+subscription_start_date        :                      TIMESTAMP
+current_period_start           :                      TIMESTAMP
+current_period_end             :                      TIMESTAMP
+Primary Key(s)                 :                            id
+
+Directed Acyclic Graph of Intermediate Representation
+
+go_emailer_com
+	└ subscription
